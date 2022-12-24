@@ -5,6 +5,9 @@
           "image": "https://i.ibb.co/wMmz3dT/Screenshot-35.png",
           "name": "sellDom",
           "shortDescription": "A used pc parts selling website",
+          "liveLink": "https://selldom-client.web.app/",
+          "clientSide":"https://github.com/saadi001/sellDom-client",
+          "serverSide":"https://github.com/saadi001/sellDom-Backend",
           "details" : [
                {"option":"Here in home page user will see category wise product."},
                {"option": "To see product details user have to logged in and He can be seller/buyer in sign up page."},
@@ -23,6 +26,9 @@
           "image": "https://i.ibb.co/F5FfvZt/Screenshot-36.png",
           "name": "i-sports photography",
           "shortDescription": "A photography service website",
+          "liveLink": "https://sports-photography-assignment.web.app/",
+          "clientSide": "https://github.com/saadi001/i-sports-photographer-client",
+          "serverSide": "https://github.com/saadi001/i-sports-photography-server",
           "details" : [
                {"option":"This is a photography service website that offers different kind photography of sports."},
                {"option": "Here user can give review but before review they have to log in."},
@@ -41,6 +47,9 @@
           "image": "https://i.ibb.co/Wkk3pjY/Screenshot-37.png",
           "name": "Course Arena",
           "shortDescription": "- A course selling website",
+          "liveLink": "https://course-arena-assignment.web.app/",
+          "clientSide": "https://github.com/saadi001/Course-arena-client",
+          "serverSide": "https://github.com/saadi001/course-arena-server",
           "details" : [
                {"option":"In home page there only a banner but in navbar there will course route."},
                {"option": "In course router there will be different categories course and user will see details."},
