@@ -46,14 +46,14 @@
           "category": "fullstack",
           "image": "https://i.ibb.co/Wkk3pjY/Screenshot-37.png",
           "name": "Course Arena",
-          "shortDescription": "- A course selling website",
+          "shortDescription": "A course selling website",
           "liveLink": "https://course-arena-assignment.web.app/",
           "clientSide": "https://github.com/saadi001/Course-arena-client",
           "serverSide": "https://github.com/saadi001/course-arena-server",
           "details" : [
                {"option":"In home page there only a banner but in navbar there will course route."},
                {"option": "In course router there will be different categories course and user will see details."},
-               {"option": "A In course details there will option to buy course but with login user couldn’t be able buy course;"}
+               {"option": "A In course details there will option to buy course but without login user couldn’t be able to buy course."}
           ],
           "technology" : [
                {"title":"FrontEnd", "description": "React, React router dom, Taiwind, DaisyUI"},
