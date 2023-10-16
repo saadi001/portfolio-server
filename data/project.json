@@ -1,65 +1,77 @@
 [
-     {
-          "id": 1,
-          "category": "fullstack",
-          "image": "https://i.ibb.co/wMmz3dT/Screenshot-35.png",
-          "name": "sellDom",
-          "shortDescription": "A used pc parts selling website",
-          "liveLink": "https://selldom-client.web.app/",
-          "clientSide":"https://github.com/saadi001/sellDom-client",
-          "serverSide":"https://github.com/saadi001/sellDom-Backend",
-          "details" : [
-               {"option":"Here in home page user will see category wise product."},
-               {"option": "To see product details user have to logged in and He can be seller/buyer in sign up page."},
-               {"option": "A buyer will only see orders, seller could be add product and only admin will see all buyers and sellers."}
-          ],
-          "technology" : [
-               {"title":"FrontEnd", "description": "React, React router dom, Taiwind, DaisyUI, MerakiUI"},
-               {"title": "Backend", "description": "NOde.js, MongoDB"},
-               {"title": "Node Package", "description": "react hook form, react hot toast, react read more read less, swiper"},
-               {"title": "Authentication", "description":"firebase"}
-          ]
-     },
-     {
-          "id": 2,
-          "category": "fullstack",
-          "image": "https://i.ibb.co/F5FfvZt/Screenshot-36.png",
-          "name": "i-sports photography",
-          "shortDescription": "A photography service website",
-          "liveLink": "https://sports-photography-assignment.web.app/",
-          "clientSide": "https://github.com/saadi001/i-sports-photographer-client",
-          "serverSide": "https://github.com/saadi001/i-sports-photography-server",
-          "details" : [
-               {"option":"This is a photography service website that offers different kind photography of sports."},
-               {"option": "Here user can give review but before review they have to log in."},
-               {"option": "Admin can add a new service, user can review and every can see that reviews."}
-          ],
-          "technology" : [
-               {"title":"FrontEnd", "description": "React, React router dom, Taiwind, DaisyUI, MerakiUI"},
-               {"title": "Backend", "description": "NOde.js, MongoDB"},
-               {"title": "Node Package", "description": "react hot toast"},
-               {"title": "Authentication", "description":"firebase"}
-          ]
-     },
-     {
-          "id": 3,
-          "category": "fullstack",
-          "image": "https://i.ibb.co/Wkk3pjY/Screenshot-37.png",
-          "name": "Course Arena",
-          "shortDescription": "A course selling website",
-          "liveLink": "https://course-arena-assignment.web.app/",
-          "clientSide": "https://github.com/saadi001/Course-arena-client",
-          "serverSide": "https://github.com/saadi001/course-arena-server",
-          "details" : [
-               {"option":"In home page there only a banner but in navbar there will course route."},
-               {"option": "In course router there will be different categories course and user will see details."},
-               {"option": "A In course details there will option to buy course but without login user couldn’t be able to buy course."}
-          ],
-          "technology" : [
-               {"title":"FrontEnd", "description": "React, React router dom, Taiwind, DaisyUI"},
-               {"title": "Backend", "description": "NOde.js, MongoDB"},
-               {"title": "Node Package", "description": "react to print, react hot toast, number-counter"},
-               {"title": "Authentication", "description":"firebase"}
-          ]
-     }
+  {
+    "id": 1,
+    "category": ["fullstack", "frontend"],
+    "image": "https://i.ibb.co/Ng0VqZc/Screenshot-47.png",
+    "name": "Foodbyt",
+    "shortDescription": "Iftaar delivery e-commerce site",
+    "liveLink": "https://foodbyt.netlify.app/",
+    "clientSide": "https://github.com/saadi001/foodbyt-frontend",
+    "serverSide": "https://github.com/saadi001/foodbyt-backend",
+    "details": [
+      "There are category-wise product to order and adding to cart as user wish.",
+      "Only logged in user can order product and see his profile where can see their previous pending orders",
+      "Jwt implementation, admin panel to see orders and confirmation."
+    ],
+    "technology": [
+      {
+        "title": "FrontEnd",
+        "description": "React, React router dom, tailwind, MerakiUI, DaisyUI, Vanilla CSS"
+      },
+      { "title": "Backend", "description": "Express, Node js, MongoDB" },
+      {
+        "title": "Node Package",
+        "description": "react hook form, react hot toast, react hero icons, tanstack query, swiper"
+      },
+      { "title": "Authentication", "description": "firebase" }
+    ]
+  },
+  {
+    "id": 2,
+    "category": ["frontend"],
+    "image": "https://i.ibb.co/jhhZYYC/Screenshot-48.png",
+    "name": "ITM Summit",
+    "shortDescription": "A summit event website",
+    "liveLink": "https://itmsummit2023.netlify.app/",
+    "clientSide": "https://github.com/saadi001/itm-summit-frontend",
+    "serverSide": "",
+    "details": [
+      "In home there is a registration button and timer.",
+      "Visitors will get idea about summit, organization,speakers and schedules .",
+      "Competition section will in the navbar what will sticky for highlighting to participate."
+    ],
+    "technology": [
+      {
+        "title": "FrontEnd",
+        "description": "react, react router dom, tailwind css, daisy ui, react hook form, react hot toast, react icons, tenstack query, react file-saver, sheetjs-style"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": ["frontend"],
+    "image": "https://i.ibb.co/c6H1HwF/Screenshot-49.png",
+    "name": "Daily Task Manager",
+    "shortDescription": "A daily task management web app",
+    "liveLink": "https://task-manager2e2.netlify.app/",
+    "clientSide": "https://github.com/saadi001/task-management",
+    "serverSide": "",
+    "details": [
+      "User must be logged in to use this web app and they can start adding task.",
+      "In my task route user can see details, edit, delete and mark this as complete task.",
+      "In complete task route there will be completed task and user can delete and make it not complete."
+    ],
+    "technology": [
+      {
+        "title": "FrontEnd",
+        "description": "React, React router dom, tailwind, MerakiUI, DaisyUI, Vanilla CSS"
+      },
+      { "title": "Backend", "description": "" },
+      {
+        "title": "Node Package",
+        "description": "react hook form, react hot toast, react toggle dark mode"
+      },
+      { "title": "Authentication", "description": "firebase" }
+    ]
+  }
 ]
