@@ -73,5 +73,32 @@
       },
       { "title": "Authentication", "description": "firebase" }
     ]
+  },
+  {
+    "id": 4,
+    "category": ["fullstack"],
+    "image": "https://i.ibb.co/c6H1HwF/Screenshot-49.png",
+    "name": "SellDom",
+    "shortDescription": "A used pc parts selling website",
+    "liveLink": "https://selldom-client.web.app/",
+    "clientSide": "https://github.com/saadi001/sellDom-client",
+    "serverSide": "https://github.com/saadi001/sellDom-Backend",
+    "details": [
+      "Here in home page user will see category wise product.",
+      "To see product details user have to logged in and He can be seller/buyer in sign up page",
+      " A buyer will only see orders, seller could be add product and only admin will see all buyers and sellers."
+    ],
+    "technology": [
+      {
+        "title": "FrontEnd",
+        "description": "React, React router dom, Tailwind,daisyUI, merakiUI"
+      },
+      { "title": "Backend", "description": "" },
+      {
+        "title": "Node Package",
+        "description": "react hook form, react hot toast, react read more read less, swiper"
+      },
+      { "title": "Authentication", "description": "firebase" }
+    ]
   }
 ]
